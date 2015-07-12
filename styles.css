@@ -406,7 +406,7 @@ div.slides-container div.jFlowSlideContainer {
 }
 
 span.jFlowPrev, span.jFlowNext {
-	background-image:url('images/slide-prev.gif');
+	background-image:url('img/slide-prev.gif');
 	background-repeat:no-repeat;
 	display:block;
 	height:41px;
@@ -417,7 +417,7 @@ span.jFlowPrev, span.jFlowNext {
 }
 span.jFlowPrev span, span.jFlowNext span { display:none; }
 span.jFlowNext {
-	background-image:url('images/slide-next.gif');
+	background-image:url('img/slide-next.gif');
 	float:right;
 }
 div.slides-container div.controls {
