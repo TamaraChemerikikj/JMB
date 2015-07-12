@@ -232,7 +232,7 @@ header {
     	background: linear-gradient(#333, #111);
     	background-color: #222;
 	text-align: left;
-	border-top: 8px solid #990000;
+	border-top: 8px solid #FFFFFF;
 	box-shadow: 0px 4px 5px #DDD;
 }
 
@@ -240,14 +240,15 @@ header h1 {
 	float: left;
 }
 
-header h1 a, header h1 a:hover {
-    background: linear-gradient(#990000, #FF0000);
-    background-color: #CC0000;
+header h1 img {
+    background-color: #FFFFFF;
     color: #eee;
-    font-size: 1.4em;
     padding: 10px 25px;
     letter-spacing: -2px;
     border-bottom: none;
+	-webkit-border-radius:0px 0px 2px 2px;
+	-moz-border-radius:0px 0px 2px 2px;
+	border-radius:0px 0px 2px 2px;
 
 }
 
@@ -299,30 +300,31 @@ nav ul li li a {
 }
 
 nav ul li a:hover {
-	color: #A2CCEC;
+	background: linear-gradient(#4A0707, #AA1111);
+	background-color: #AA1111;
 	text-decoration: none;
 }
 
 nav ul li.selected a {
-	background: linear-gradient(#990000, #FF0000);
-	background-color: #CC0000;
+	background: linear-gradient(#4A0707, #AA1111);
+	background-color: #AA1111;
 	color: #fff;
 }
 
 
 nav ul li a:hover, nav ul li.sfHover a {
-	background: linear-gradient(#990000, #FF0000);
-	background-color: #CC0000;
+	background: linear-gradient(#4A0707, #AA1111);
+	background-color: #AA1111;
 	color: #fff;
 }
 
  nav ul li.sfHover ul a, nav ul ul {
-	background: #CC0000;
+	background: #AA1111;
 	color: #fff;
 }
 
 nav ul li li a:hover, nav ul li.sfHover li a:hover {
-	background: #2A85CB;
+	background: #CC1414;
 }
 
 /*** ESSENTIAL STYLES ***/
@@ -614,8 +616,8 @@ article .article-info a {
 }
 
 .sidebar ul.blocklist li a.selected {
-	background: linear-gradient(#990000, #FF0000);
-	background-color: #62A9DF;
+	background: linear-gradient(#4A0707, #AA1111);
+	background-color: #AA1111;
     color: #FFFFFF;
 	border-bottom-color: #2577B6;
 	font-weight: bold;
@@ -741,7 +743,7 @@ footer .footer-bottom p, footer .footer-bottom p a {
 
 	body { font-size: 0.8em; }	
 
-	header h1 a, header h1 a:hover { padding: 5px; }
+	header h1 a, header h1 a:hover { padding: 5px; } 
 
 	div#container { width: auto; }
 
