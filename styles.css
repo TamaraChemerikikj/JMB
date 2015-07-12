@@ -243,8 +243,7 @@ header h1 {
 header h1 img {
     background-color: #FFFFFF;
     color: #eee;
-    padding: 10px 25px;
-    letter-spacing: -2px;
+    padding: 5px 5px;
     border-bottom: none;
 	-webkit-border-radius:0px 0px 2px 2px;
 	-moz-border-radius:0px 0px 2px 2px;
